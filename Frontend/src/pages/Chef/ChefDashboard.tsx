@@ -57,7 +57,7 @@ function PhotoUpload({ currentPhoto, chefName }: { currentPhoto?: string; chefNa
     <div className="relative group w-24 h-24">
       <div className="w-24 h-24 rounded-full border-4 border-primary overflow-hidden bg-orange-100 flex items-center justify-center">
         {photoSrc
-          ? <img src={`http://localhost:5000${photoSrc}`} alt={chefName} className="w-full h-full object-cover" />
+          ? <img src={`https://sajhaproject-backend.onrender.com${photoSrc}`} alt={chefName} className="w-full h-full object-cover" />
           : <ChefHat className="h-10 w-10 text-orange-300" />
         }
       </div>
